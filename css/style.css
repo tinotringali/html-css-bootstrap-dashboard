@@ -7,12 +7,13 @@
     right: 0;
 }
 
-.left_menu{
+.side_bar{
  height: 100vh;
- background-color: red;
+ background-color: #051e34;
+ background-image: url("../img/sidebar-bg.png");
 }
 
 .right_menu{
     height: 100vh;
     background-color: green;
-   }
+}
