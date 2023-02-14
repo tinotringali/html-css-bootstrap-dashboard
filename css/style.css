@@ -1,19 +1,19 @@
-.bg-body-tertiary {
+.bg-body-tertiary{
     --bs-bg-opacity: 0;
 }
 
-.dropdown-menu[data-bs-popper] {
+.dropdown-menu[data-bs-popper]{
     top: 100%;
     right: 0;
 }
 
 .side_bar{
- height: 100vh;
- background-color: #051e34;
- background-image: url("../img/sidebar-bg.png");
+    height:calc(100vh - 58px);
+    background-color: #051e34;
+    background-image: url("../img/sidebar-bg.png");
 }
 
 .right_menu{
-    height: 100vh;
+    height:calc(100vh - 58px);
     background-color: green;
 }
