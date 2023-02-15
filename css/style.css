@@ -21,6 +21,10 @@ header{
     height:calc(100vh - 76px);
 }
 
+.offcanvas.offcanvas-end{
+    width: 50%;
+}
+
 .nav_top{
     background-color:#1b72e8 ;
 }
