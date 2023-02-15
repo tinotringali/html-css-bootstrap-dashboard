@@ -1,3 +1,7 @@
+header{
+    height: 76px;
+}
+
 .bg-body-tertiary{
     --bs-bg-opacity: 0;
 }
@@ -8,12 +12,12 @@
 }
 
 .side_bar{
-    height:calc(100vh - 58px);
+    height:calc(100vh - 76px);
     background-color: #051e34;
     background-image: url("../img/sidebar-bg.png");
 }
 
 .right_menu{
-    height:calc(100vh - 58px);
+    height:calc(100vh - 76px);
     background-color: green;
 }
