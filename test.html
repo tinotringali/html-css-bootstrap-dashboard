@@ -21,6 +21,7 @@
     <title>Bootstrap Dashboard</title>
 </head>
 <body>
+    <!-- header -->
     <header>  
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -47,17 +48,60 @@
             </div>
         </nav>
     </header>
-
+     <!-- header -->
+     <!-- side-bar -->
     <main class="d-flex">
         <div class="side_bar d-flex flex-column text-light">
-            <span class="me-4 mt-4"><i class="fa-solid fa-house px-3"></i><a class="d-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="home">Home</a></span>
-            <span class="me-4 mt-2"><i class="fa-solid fa-chart-simple px-3"></i><a class="d-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="stats"> Stats</a></span>
-            <span class="me-4 mt-2"><i class="fa-solid fa-signal px-3"></i><a class="d-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="signal">Signal</a></span>
-            <span class="me-4 mt-auto"><i class="fa-solid fa-gear px-3"></i><a class="d-none d-md-inline d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="adim">Adim</a></span>
+            <span class="me-4 mt-4"><i class="fa-solid fa-house px-3"></i><a class="d-none d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="home">Home</a></span>
+            <span class="me-4 mt-2"><i class="fa-solid fa-chart-simple px-3"></i><a class="d-none d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="stats"> Stats</a></span>
+            <span class="me-4 mt-2"><i class="fa-solid fa-signal px-3"></i><a class="d-none d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="signal">Signal</a></span>
+            <span class="me-4 mt-auto"><i class="fa-solid fa-gear px-3"></i><a class="d-none d-lg-inline d-xl-inline d-xxl-inline text-light text-decoration-none" href="adim">Adim</a></span>
         </div>
+        <!-- side-bar -->
+        <!-- nav-right -->
         <div class="right_menu flex-grow-1">
-            a
+            <div class="nav_top container-fluid pt-3 row m-auto">
+
+                <!-- colonna-1 -->
+                <div class="col-12 col-md-4 col pb-4 order-md-1">
+                    <!-- button -->
+                    <span class=""><strong class="text-light pe-3">Nuovo Studente</strong><button class="btn btn-primary border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button></span>
+                    <!-- button -->
+                    <!-- offcanvas -->
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        ...
+                      </div>
+                    </div>   
+                    <!-- offcanvas -->  
+                <!--/colonna-1 -->
+
+                <!-- colonna-2 -->       
+                </div>
+                <div class="col-6 col-md-4 d-flex text-light flex-wrap pb-4 ">
+                    <h4>Boolean <span class="badge rounded-pill text-bg-primary fw-light">Piano Blaze</span></h4>
+                    <span class="badge rounded-pill text-bg-primary fw-light">3 App</span>
+                    <span><i class="fa-solid fa-angles-right px-2"></i></span>
+                    <span class="badge rounded-pill text-bg-primary fw-light d-block d-lg-none">+</span>
+                    <span class="badge rounded-pill text-bg-primary fw-light d-none d-lg-block d-xl-block">Boolean mobile app</span>
+                    <span class="badge rounded-pill text-bg-primary fw-light d-none d-lg-block d-xl-block">Boolean web app</span>
+                    <span class="badge rounded-pill text-bg-primary fw-light d-none d-lg-block d-xl-block">Boolean blog app</span>
+                </div>
+                <!--/colonna-2 -->
+
+                <!-- colonna-3 -->
+                <div class="col-12 col-md-4 text-light pb-4">
+                    <span>Studenti online negli ultimi 30 minuti</span>
+                    <h3>125</h3>
+                </div>
+                <!--/colonna-3 -->
+            </div>
         </div>
+        <!-- nav-right -->
     </main>
 
 

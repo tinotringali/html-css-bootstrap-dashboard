@@ -19,5 +19,13 @@ header{
 
 .right_menu{
     height:calc(100vh - 76px);
-    background-color: green;
+}
+
+.nav_top{
+    background-color:#1b72e8 ;
+}
+
+.badge {
+    --bs-badge-font-size: 0.65em;
+    height: 20px;
 }
