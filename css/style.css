@@ -12,6 +12,7 @@ header{
 }
 
 .side_bar{
+    width: 12.5rem;
     height:calc(100vh - 76px);
     background-color: #051e34;
     background-image: url("../img/sidebar-bg.png");
